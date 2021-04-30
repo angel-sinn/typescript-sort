@@ -1,4 +1,7 @@
 "use strict";
+// interface vs abstract class:
+// interface - contract between diff classes, use when very diff objects that we want to work together (loose coupling)
+// abstract classes = contract between diff classes, use when trying to build up a definition of an object (strong coupling)
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 // make Sorter an abstract class
